@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Editing Take out the bins</title>
+	</head>
+
+	<body>
+		<h1>
+			Editing Take out the bins
+			<small>Due:	16th Dec 2013</small>
+		</h1>
+
+		<nav>
+			<a href="#">Dashboard</a>
+			<a href="#">Current</a>
+			<a href="#">Complete</a>
+		</nav>
+
+		<main>
+			<form method="post" action="edit-task.html">
+				<div>
+					<label>Task title</label>
+					<input type="text" name="title" value="Take out the bins"> 
+				</div>
+
+				<div>
+					<label>Task description</label>
+					<textarea name="description" rows="15" columns="80">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</textarea>
+				</div>
+				
+				<div>
+					<label>Due date</label>
+					<input type="datetime-local" name="due"> 
+				</div>	
+				
+				<div>
+					<label>
+						<input type="checkbox" value="complete" checked>
+						Complete
+					</label>
+				</div>	
+					
+				<button type="submit">Save Task</button>
+			</form>
+		</main>
+
+		<footer>
+			<p>Copyright 2013</p>
+
+			<p><a href="https://github.com/Stofn/Todo" target="new">Visit Todo on Github</a></p>
+		</footer>
+	</body>
+</html>
